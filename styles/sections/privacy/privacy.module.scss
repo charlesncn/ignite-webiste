@@ -1,0 +1,57 @@
+@import '../../scss/mixins';
+// styles/PrivacyPolicy.module.scss
+
+.privacy-policy-section {
+	
+	padding: 2rem;
+  
+	h2 {
+	  
+	  font-size: 1.75rem;
+	  margin-bottom: 1rem;
+	}
+  
+	h3 {
+	  
+	  font-size: 1.5rem;
+	  margin-bottom: 1rem;
+	}
+  
+	p {
+	
+	  font-size: 1rem;
+	  line-height: 1.6;
+	  margin-bottom: 1rem;
+	}
+  
+	ul {
+	  padding-left: 1.5rem;
+	  list-style-type: disc;
+  
+	  li {
+		color: #666;
+		font-size: 1rem;
+		line-height: 1.6;
+		margin-bottom: 0.5rem;
+	  }
+	}
+  
+	a {
+	  
+	  text-decoration: none;
+  
+	  &:hover {
+		text-decoration: underline;
+	  }
+	}
+  
+	.contact-us {
+	  margin-top: 2rem;
+  
+	  p {
+		font-size: 1rem;
+	  }
+	}
+  }
+  
+

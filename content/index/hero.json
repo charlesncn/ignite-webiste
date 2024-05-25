@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
+		"start": "Hello, welcome to Ignitecove, best dating site.",
+		"end": "At Ignitecove we find you a date, deep meaningful relationship and fun",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,20 +11,20 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Ignitecove",
+		"usp": "start your journey to find love now!"
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "Here's where sparks fly and connections ignite! Whether you're looking for a deep, meaningful relationship or a fun, spontaneous date, IgniteCove is the perfect place to meet someone special.",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
+			"title": "Contact Us",
 			"url": "",
 			"leaveSite": false
 		},
 		"secondary": {
-			"title": "LinkedIn",
+			"title": "Instagram",
 			"url": "",
 			"leaveSite": "true"
 		}

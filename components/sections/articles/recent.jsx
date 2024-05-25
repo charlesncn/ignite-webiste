@@ -17,9 +17,9 @@ export default function Recent({ mediumArticles }) {
 		<Section classProp="borderBottom">
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Recent Articles"
-					preTitle="Informative"
-					subTitle="A personal quest to become a better creative writer."
+					title="Privacy Policy"
+					preTitle="IGNITECOVE"
+					subTitle="Effective Date 21/06/2023"
 				/>
 				<section className={css.projects}>
 					{
@@ -28,9 +28,9 @@ export default function Recent({ mediumArticles }) {
 						return (
 							<>
 							<article key={index} className={css.project}>
-								<span className={css.featuredImage}>
+								{/* <span className={css.featuredImage}>
 									<img src={thumbnail} alt="Article thumbnail" />
-								</span>
+								</span> */}
 								<span className={css.header}>
 									<a href={link} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
 								</span>
@@ -38,15 +38,15 @@ export default function Recent({ mediumArticles }) {
 								</span>
 								<span className={css.details}>
 									<p>By {author}</p>
-									<p className={css.pushedAt}>{date}</p>
+									{/* <p className={css.pushedAt}>{date}</p> */}
 								</span>
-								<span className={css.topicsContainer}>
+								{/* <span className={css.topicsContainer}>
 									{
 									categories.map( (e, index) => {
 										return ( <span key={index} className={css.topics}><Icon icon={[ 'fab', 'medium' ]} /> {e}</span> )
 									})
 									}
-								</span>
+								</span> */}
 							</article>
 							</>
 						)

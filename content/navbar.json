@@ -1,14 +1,18 @@
 [
 	{
 		"url": "/",
-		"title": "About Me"
+		"title": "About"
 	},
 	{
-		"url": "/privacy-policy",
-		"title": "Case Studies"
+		"url": "/privacy",
+		"title": "Privacy Policy"
 	},
 	{
 		"url": "/projects",
 		"title": "Projects"
+	},
+	{
+		"url": "/delete",
+		"title": "Request Delete"
 	}
 ]
